@@ -1,0 +1,366 @@
+*{
+/*  margin: 0;
+padding: 0;*/
+/*  border: 1px solid black;*/
+
+}
+:root {
+  --layout_width_site: 1000px;
+  --layout_width_content: 1000px;
+}
+html {
+  line-height: 1.618;
+}
+body {
+  padding: 30px;
+  padding-top: 0;
+  overflow-x: hidden;
+  margin: 0;
+  display: block;
+
+
+
+}
+.site {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  max-width: var(--layout_width_site);
+
+}
+div {
+  display: block;
+}
+.site-header {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+}
+#masthead {
+
+}
+.site-header-content {
+  border-bottom: 2px solid #fff;
+  padding: 0;
+
+}
+.site-header-inner {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+}
+.site-branding {
+  width: 100%;
+  margin: 0;
+  float: left;
+  line-height: inherit;
+  color: inherit;
+  /*  background-color: black;*/
+}
+.main-navigation {
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 0;
+
+
+
+}
+.main-navigation-container .menu {
+  margin-top: 0;
+}
+.main-navigation-container ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.main-navigation-container li {
+  float: left;
+  white-space: nowrap;
+  padding: 0;
+  margin: 0;
+  margin-left: 2.48%;
+  padding-top: 0.382rem;
+  padding-bottom: 0.382rem;
+  position: relative;
+}
+.main-navigation-container li:first-child {
+  margin-left: 0;
+}
+.main-navigation-container button:first-child {
+  padding-left: 0;
+}
+.main-navigation-container button {
+  padding-left: 0;
+  padding-right: 3px;
+  margin-left: 0;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 1rem;  
+  text-transform: uppercase;
+  color: #535354;
+  z-index: 10;
+  max-width: 100%;
+  padding: 0.618rem 0.382rem;
+  border: none;
+  text-decoration: none;
+  background: none;
+  cursor: pointer;
+  outline: none;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+nav {
+  flex: 0 1 auto;
+}
+
+button:hover {
+  color: #4ed4ed;
+}
+button:focus {
+  color: #4ed4ed;
+}
+button:hover, a:focus {
+  text-decoration: underline;
+}
+
+.site-content {
+  margin-top: 0rem;
+  overflow-x: hidden;
+}
+.site-content-inner {
+  width: 100%;
+  max-width: none;
+  padding: 0;
+  margin: 0 auto;
+}
+.content-area {
+  float: none;
+  width: 100%;
+  max-width: none;
+  padding: 0;
+  margin: 0;
+}
+main {
+  display: block;
+}
+.f1-module-content {
+  max-width: 835px;
+  margin: 0 auto;
+  padding: 3rem;
+  height: 100%;
+
+}
+.f1-rich-text {
+  color: #ffffff;
+
+}
+p {
+  padding: 0;
+  margin: 0 0 1.618em;
+  word-wrap: break-word;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.f1-rich-text strong {
+  font-weight: bold;
+}
+#map-content {
+  height: 500px;
+  width: 100%;
+}
+
+#intro-content {
+  position: relative;
+  background-image: url('image/grid.png');
+  background-position: center;
+  background-size: 100% auto;
+  background-repeat: cover;
+  background-attachment: scroll;
+}
+.entry-content {
+  max-width: 100%;
+}
+section {
+  display: block;
+}
+.row {
+  /*  margin: 30px;*/
+}
+.col-md-2 {
+  padding-right: 10px !important;
+  padding-left: 10px !important;
+  padding-bottom: 20px;
+}
+button:focus {
+  outline: none !important;
+}
+.row {
+
+}
+.row img {
+  border-radius: 0px !important; 
+}
+
+.diagram-text {
+  width: 50%;
+}
+.gradient-multiline {
+  position: relative;
+  background-color: #fff;
+  line-height: 1.5em;
+  overflow:hidden;
+}
+
+.gradient-multiline span {
+  color: #fff;
+  background-color: #000;
+
+  padding: 0.225rem 0.5rem;
+
+  /* Needs prefixing */
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+@supports(mix-blend-mode: lighten) {
+
+  .gradient-multiline::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    pointer-events: none;
+    background: linear-gradient(#33bdde, #4ed4ed);
+    mix-blend-mode: lighten;
+  }
+  
+}
+.building-diagram {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow-y: hidden;
+}
+.diagram-list {
+  width: 1000px;
+}
+.diagram-list a {
+  color: black;
+}
+.diagram-list li {
+  display: inline;
+  font-size: 10px;
+}
+#burj {
+  margin-left: 90px;
+}
+#shanghai {
+  margin-left: 140px;
+}
+#clock {
+  margin-left: 100px;
+}
+#ping {
+  margin-left: 90px;
+}
+#lotte {
+  margin-left: 100px;
+}
+.minig-text {
+  width: 50%;
+}
+fieldset {
+  border: 0;
+  margin: 2rem 0;
+}
+
+fieldset legend {
+  font-weight: 700;
+}
+
+.answer__item {
+  background-color: #f6f6f6;
+  display: block;
+  position: relative;
+  cursor: pointer;
+  padding: 0.75rem 1.25rem;
+  margin: 0.25rem 0;
+}
+
+/* Hide Radio Buttons and Submit Button */
+input[type="radio"], button {
+  display: none;
+}
+
+/* Any correct answer on any answered question, highlight in light green */
+:valid .answer__item--is-correct { background-color: rgba(134, 227, 206, 0.6) }
+
+/* Show any extra explanatory text */
+.answer__reveal-text { display: none; }
+:valid .answer__reveal-text { display: block }
+
+/* Any chosen answer, highlight in red */
+:checked + .answer__item { color: #ffffff; background-color: #ed6666 }
+
+/* Any correctly chosen answer, highlight in bright green */
+:checked + .answer__item--is-correct { background-color: #86e3ce; }
+
+/* Show the icon for the selected answer */
+:checked + .answer__item .answer__icon { display: inline-block }
+
+
+/* prevent chosing another answer once chosen */
+:valid { -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none }
+:valid + .answer__item { pointer-events: none }
+
+/* keep track of score */
+form { counter-reset: quiz-score }
+:checked + .answer__item--is-correct { counter-increment: quiz-score }
+.score:after { content: counter(quiz-score) "/" attr(data-question-count) }
+
+/* show score once quiz has been completed */
+.message { display: none; }
+form:valid .message { display: block }
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .main-navigation {
+    width: 1%;
+
+  }
+  .diagram-text {
+    width: 100%;
+  }
+  .minig-text {
+    width: 100%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+  }
+
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+  }
